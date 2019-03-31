@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Saad Barasi</string>
+    <string-array name="array_name">
+        <item name="sell">بيع</item>
+        <item name="buy">شراء</item>
+    </string-array>
+</resources>

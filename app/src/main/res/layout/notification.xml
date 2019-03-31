@@ -1,0 +1,91 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_page_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="إشعار"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/noto_kufi_arabic_bold"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/logo" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginLeft="35px"
+        android:layout_marginRight="35px"
+        android:layout_marginTop="25px"
+        android:layout_marginBottom="25px"
+        android:layoutDirection="rtl"
+        android:background="@drawable/container"
+        android:padding="20px">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:gravity="right"
+            android:id="@+id/title"
+            android:textSize="16dp"
+            android:fontFamily="@font/noto_kufi_arabic_bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:gravity="right"
+            android:id="@+id/body"
+            android:layout_below="@+id/title"
+            android:textSize="@dimen/textSize"
+            android:fontFamily="@font/noto_kufi_arabic_regular"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:gravity="left"
+            android:id="@+id/date"
+            android:layout_below="@+id/body"
+            android:textSize="12dp"
+            android:fontFamily="@font/noto_kufi_arabic_regular"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:textColor="#555"
+            android:textDirection="ltr"/>
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powered by ExTra FX"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15px"
+        android:layout_marginBottom="5px"
+        android:textColor="#555"
+        android:textStyle="italic"/>
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "933156173465",
+    "firebase_url": "https://extrafx-eade9.firebaseio.com",
+    "project_id": "extrafx-eade9",
+    "storage_bucket": "extrafx-eade9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933156173465:android:22cca3f430f456f7",
+        "android_client_info": {
+          "package_name": "samarel.extrafx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933156173465-ol37hul4jo1d3gd2n19i2itsbugpv3ld.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "samarel.extrafx",
+            "certificate_hash": "793c95dabee113438813b96e34d4a86fbd61d2ba"
+          }
+        },
+        {
+          "client_id": "933156173465-gjo671nf6l4l9sp8rnpt010epp34846u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3TsoTPyKAkE65xq24euAUsEzz5nIcZQg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933156173465-gjo671nf6l4l9sp8rnpt010epp34846u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
